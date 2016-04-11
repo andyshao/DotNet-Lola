@@ -1,0 +1,4 @@
+D:\Projects\GitHub\DotNet-Lola\DotNet-Base\bin\Debug\DotNet-Base.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Base\bin\Debug\DotNet-Base.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Base\obj\Debug\DotNet-Base.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Base\obj\Debug\DotNet-Base.pdb

@@ -1,0 +1,9 @@
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-Lola.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\obj\Debug\DotNet-Lola.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\obj\Debug\DotNet-Lola.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-Lola.exe
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-DesignPattern.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-DesignPattern.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\obj\Debug\DotNet-Lola.exe
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-GDI.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-GDI.pdb

@@ -1,0 +1,5 @@
+D:\Projects\GitHub\DotNet-Lola\DotNet-DesignPattern\bin\Debug\DotNet-DesignPattern.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-DesignPattern\bin\Debug\DotNet-DesignPattern.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-DesignPattern\obj\Debug\DotNet-DesignPattern.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\DotNet-Lola\DotNet-DesignPattern\obj\Debug\DotNet-DesignPattern.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-DesignPattern\obj\Debug\DotNet-DesignPattern.pdb

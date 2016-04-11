@@ -1,0 +1,5 @@
+D:\Projects\GitHub\DotNet-Lola\DotNet-GDI\bin\Debug\DotNet-GDI.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-GDI\bin\Debug\DotNet-GDI.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-GDI\obj\Debug\DotNet-GDI.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\DotNet-Lola\DotNet-GDI\obj\Debug\DotNet-GDI.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-GDI\obj\Debug\DotNet-GDI.pdb
