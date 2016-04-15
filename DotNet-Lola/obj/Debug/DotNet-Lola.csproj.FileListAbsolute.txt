@@ -7,3 +7,5 @@ D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-DesignPattern.pdb
 D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\obj\Debug\DotNet-Lola.exe
 D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-GDI.dll
 D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-GDI.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-Thread.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Lola\bin\Debug\DotNet-Thread.pdb

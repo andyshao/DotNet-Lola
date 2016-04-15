@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using DotNet_DesignPattern;
 using DotNet_GD;
+using DotNet_Thread;
 
 namespace DotNet_Lola
 {
@@ -63,8 +65,28 @@ namespace DotNet_Lola
             //res.Dispose();
             #endregion
 
+            ThreadBuy();
+
             Console.WriteLine("----------操作完成----------");
             Console.ReadKey();
+        }
+
+        static void ThreadBuy()
+        {
+            var tt = new ThreadPar();
+            Parallel.For(0, 100, (t, state) =>
+            {
+                var uid = "用户" + t;
+                var x = tt.Buy(uid);
+                if (x.Code == -1)
+                {
+                    Console.WriteLine(uid + ":" + x.Msg);
+                    //state.Break();
+                }
+                else
+                    Console.WriteLine(uid + ":" + x.Msg + "还剩下:" + x.Cnt + "件");
+            });
+
         }
     }
 }

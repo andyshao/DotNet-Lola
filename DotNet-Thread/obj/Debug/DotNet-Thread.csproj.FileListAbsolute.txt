@@ -1,0 +1,5 @@
+D:\Projects\GitHub\DotNet-Lola\DotNet-Thread\bin\Debug\DotNet-Thread.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Thread\bin\Debug\DotNet-Thread.pdb
+D:\Projects\GitHub\DotNet-Lola\DotNet-Thread\obj\Debug\DotNet-Thread.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\DotNet-Lola\DotNet-Thread\obj\Debug\DotNet-Thread.dll
+D:\Projects\GitHub\DotNet-Lola\DotNet-Thread\obj\Debug\DotNet-Thread.pdb

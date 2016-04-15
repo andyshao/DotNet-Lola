@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3D9DE4D-0416-4F0A-A015-F9F1FFEAE76F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{63BDF96C-7877-42D2-9FAB-61EBEBFB350B}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotNet_Lola</RootNamespace>
-    <AssemblyName>DotNet-Lola</AssemblyName>
+    <RootNamespace>DotNet_Thread</RootNamespace>
+    <AssemblyName>DotNet-Thread</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,37 +29,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ThreadPar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DotNet-DesignPattern\DotNet-DesignPattern.csproj">
-      <Project>{851d2823-c169-4f21-af80-c94b8fe01c51}</Project>
-      <Name>DotNet-DesignPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotNet-GDI\DotNet-GDI.csproj">
-      <Project>{a88dd554-d3dc-4726-a496-07f65b6e5fbe}</Project>
-      <Name>DotNet-GDI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DotNet-Thread\DotNet-Thread.csproj">
-      <Project>{63bdf96c-7877-42d2-9fab-61ebebfb350b}</Project>
-      <Name>DotNet-Thread</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
