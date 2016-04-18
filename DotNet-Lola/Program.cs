@@ -60,17 +60,21 @@ namespace DotNet_Lola
             #endregion
 
             #region 验证码生成
-            //var res = ImageVerification.GetNumberVerification();
-            //res.Save(@"D:\Verification.jpg");
-            //res.Dispose();
+            var res = ImageVerification.CreateVerifyStr();
+            Console.WriteLine(@"生成成功(D:\vimage.jpg):"+res.Value);
+            res.BitMap.Save(@"D:\vimage.jpg");
+            res.BitMap.Dispose();
             #endregion
 
-            ThreadBuy();
+            #region 秒杀
+            //ThreadBuy();
+            #endregion
 
             Console.WriteLine("----------操作完成----------");
             Console.ReadKey();
         }
 
+        //秒杀
         static void ThreadBuy()
         {
             var tt = new ThreadPar();
@@ -88,5 +92,6 @@ namespace DotNet_Lola
             });
 
         }
+
     }
 }
